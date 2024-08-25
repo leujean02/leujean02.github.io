@@ -238,11 +238,12 @@ body {
   /* Skills Section Style */
   .skills--section {
     display: flex;
-    padding: 149.33px 85.33px;
+    padding: 133.3px 85.33px;
+    padding-bottom: 40px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 106.667px;
+    gap: 20.667px;
   }
   .skills--section--heading {
     color: var(--heading-color);
@@ -255,7 +256,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 42.6px;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .skills--section--card {
     display: flex;
@@ -266,13 +267,7 @@ body {
     flex: 1 0 0;
     border-radius: 10.6px;
     background: var(--bg-shade);
-    min-height: 250px;
-  }
-  .skills--section--card:hover {
-    border-bottom: 4px solid var(--primary);
-  }
-  .skills--section--card:hover .skills--section--description {
-    color: var(--darkblue);
+    min-height: 190px;
   }
   .skills--section--img {
     display: flex;
@@ -310,6 +305,7 @@ body {
   .about--section {
     display: grid;
     padding: 133.3px 85.3px;
+    padding-bottom: 40px;
     align-items: center;
     gap: 114.6px;
     grid-template-columns: repeat(2, 1fr);
@@ -324,6 +320,7 @@ body {
   .portfolio--section {
     display: flex;
     padding: 112px 85px;
+    padding-bottom: 40px;
     flex-direction: column;
     align-items: flex-start;
     gap: 80px;
@@ -341,7 +338,8 @@ body {
     gap: 21.3px;
   }
   .portfolio--section--container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: center;
     gap: 42.6px;
@@ -365,6 +363,7 @@ body {
     cursor: pointer;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    min-height: 400px;
   }
   .portfolio--section--card--content {
     display: flex;
@@ -376,6 +375,18 @@ body {
   }
   .portfolio--section--title {
     color: var(--heading-color);
+    padding-bottom: 10px;
+  }
+  .tech-label {
+    font-weight: bold;
+    color: #570388;
+  }
+  .portfolio--section--tech {
+    color: #48096d;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
   }
   .portfolio--link {
     text-decoration: none;

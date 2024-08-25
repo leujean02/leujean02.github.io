@@ -35,6 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
+        <h3>Eujean Lee</h3>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}

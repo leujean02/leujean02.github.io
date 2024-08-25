@@ -19,7 +19,6 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<AboutPage />}></Route>
             <Route path="/portfolio" element={<PortfolioPage />}></Route>
-            {/* <Route path="/" element={<MyPortfolio />}></Route> */}
             <Route path="*" element={<div>404 Not Found</div>}></Route>
           </Routes>
         </div>

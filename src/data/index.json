@@ -2,50 +2,60 @@
     "skills": [
       {
         "id": "1",
-        "src": "./img/product-chain-1.png",
-        "title": "Front-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "title": "Programming Languages",
+        "description": "Java, Python, C/C++, SQL, JavaScript, TypeScript, HTML, CSS, SystemVerilog"
       },
       {
         "id": "2",
-        "src": "./img/tag-1.png",
-        "title": "Back-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "title": "Tools",
+        "description": "React.js, React Native, Node.js, Git, Linux, Microsoft Azure, Firebase, Xcode, JUnit, PyTorch, NumPy, Spark"
       },
       {
         "id": "3",
-        "src": "./img/feather-pen-2.png",
-        "title": "UI & UX Design",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
-        "id": "4",
-        "src": "./img/feather-pen-1.png",
-        "title": "Webflow Development",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+        "title": "Spoken Languages",
+        "description": "English (Proficient), Mandarin Chinese (Native), Korean (Native)"
       }
     ],
     "portfolio": [
       {
         "id": "1",
-        "src": "./img/placeholder-image.png",
-        "title": "Ahuse",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "title": "Dotorii: Scan Your Plan",
+        "description": "An iOS app to enhance accessibility by enabling users to capture posters or scan QR codes and automatically integrate the information into Google Calendar.",
+        "type": "GitHub",
+        "link": "https://github.com/LucasL53/dotorii",
+        "technologies": "Python, Swift, OCR"
       },
       {
         "id": "2",
-        "src": "./img/placeholder-image-1.png",
-        "title": "App Dashboard",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "title": "Games Capstone: Mixed Up Power Ups",
+        "description": "A dynamic platformer game with diverse power-ups for strategic navigation and level completion, offering a fun and challenging experience.",
+        "type": "Website",
+        "link": "https://adfischcswashingtonedu.itch.io/mixed-up-power-ups",
+        "technologies": "Haxe, Flixel"
       },
       {
         "id": "3",
-        "src": "./img/placeholder-image-2.png",
-        "title": "Easy Rentn",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "link": "View In Github"
+        "title": "Distributed Key-Value Store",
+        "description": "Engineered a scalable, fault-tolerant key-value store using the Paxos consensus algorithm. Developed a distributed system with state machine replication and database sharding for efficient data management.",
+        "technologies": "Java"
+      },
+      {
+        "id": "4",
+        "title": "Flight Booking Application",
+        "description": "A Java app for account management, flight booking, and secure transactions via command-line interface, using SQL transactions and Microsoft Azure SQL Server for conflict-free multi-user access.",
+        "technologies": "Java, SQL, Microsoft Azure"
+      },
+      {
+        "id": "5",
+        "title": "UW Campus Map",
+        "description": "A Java application that finds the shortest path between locations on the University of Washington campus.",
+        "technologies": "Java, TypeScript, React, Node.js"
+      },
+      {
+        "id": "6",
+        "title": "Flappy Bird Game on FPGA",
+        "description": "Reverse-engineered the classic game 'Flappy Bird' and implemented it on an FPGA using SystemVerilog, achieving a smooth 60 FPS gameplay experience.",
+        "technologies": "SystemVerilog"
       }
     ]
   }
