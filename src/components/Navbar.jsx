@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -35,7 +35,6 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.svg" alt="Logoipsum" />
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -50,12 +49,7 @@ function Navbar() {
           <li>
             <Link
               onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="heroSection"
+              to="/"
               className="navbar--content"
             >
               Home
@@ -64,30 +58,31 @@ function Navbar() {
           <li>
             <Link
               onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="MyPortfolio"
+              to="/about"
+              className="navbar--content"
+            >
+              About Me
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              to="/portfolio"
               className="navbar--content"
             >
               Portfolio
             </Link>
           </li>
           <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="AboutMe"
+            <a
+              href="./document/resume.pdf"
               className="navbar--content"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={closeMenu}
             >
-              About Me
-            </Link>
+              Resume
+            </a>
           </li>
         </ul>
       </div>

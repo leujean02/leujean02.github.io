@@ -10,7 +10,7 @@ export default function HeroSection() {
                         <br />
                     </h1>
                     <p className="hero--section-description">
-                        <br /> A Senior Student Studying Computer Engineering at Paul G. Allen School of Computer Science & Engineering at the University of Washington
+                        <br /> A senior majoring in Computer Engineering at the Paul G. Allen School of Computer Science & Engineering, University of Washington.
                     </p>
                 </div>
             </div>
