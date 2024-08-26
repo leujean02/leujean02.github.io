@@ -21,7 +21,7 @@ export default function MyPortfolio() {
                   <span className="tech-label">Technologies Used:</span> {item.technologies}
                 </p>              
               </div>
-              <p className="text-sm portfolio--link">
+              <p className="text-sm">
                 {item.link ? (
                   <a 
                     href={item.link} 

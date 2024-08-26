@@ -11,7 +11,12 @@ export default function MySkills() {
           <div key={index} className="skills--section--card">
             <div className="skills--section--card--content">
               <h3 className="skills--section--title">{item.title}</h3>
-              <p className="skills--section--description">{item.description}</p>
+              {/* <p className="skills--section--description">{item.description}</p> */}
+              <div className="skills--section--list">
+                {item.description.split(',').map((skill, i) => (
+                  <span key={i} className="skill--box">{skill.trim()}</span>
+                ))}
+              </div>
             </div>
           </div>
         ))}

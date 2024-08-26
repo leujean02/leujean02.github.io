@@ -3,7 +3,7 @@
       {
         "id": "1",
         "title": "Programming Languages",
-        "description": "Java, Python, C/C++, SQL, JavaScript, TypeScript, HTML, CSS, SystemVerilog"
+        "description": "Java, Python, C, C++, SQL, JavaScript, TypeScript, HTML, CSS, SystemVerilog"
       },
       {
         "id": "2",
@@ -56,6 +56,25 @@
         "title": "Flappy Bird Game on FPGA",
         "description": "Reverse-engineered the classic game 'Flappy Bird' and implemented it on an FPGA using SystemVerilog, achieving a smooth 60 FPS gameplay experience.",
         "technologies": "SystemVerilog"
+      }
+    ],
+    "publications": [
+      {
+        "id": "1",
+        "title": "Towards Real-time Computer Vision and Augmented Reality to Support Low Vision Sports: A Demonstration of ARTennis",
+        "conference": "UIST '23 Demo",
+        "authors": "Jaewook Lee, Devesh P. Sarda, Eujean Lee, Amy S. Lee, Jun Wang, Adrian Rodriguez, Jon E. Froehlich",
+        "img": "./img/uist_img.png",
+        "pdf": "./document/UIST2023_ARSports.pdf",
+        "doi": "https://dl.acm.org/doi/10.1145/3586182.3615815"
+      },
+      {
+        "id": "2",
+        "title": "AI-Powered AR for Enhancing Sports Playability for People with Low Vision: An Exploration of ARSports",
+        "conference": "ISMAR '24 Workshop",
+        "authors": "Jaewook Lee, Yang Li, Dylan Bunarto, Eujean Lee, Olivia Wang, Adrian Rodriguez, Yuhang Zhao, Yapeng Tian, and Jon E. Froehlich",
+        "img": "./img/ismar_img.png",
+        "pdf": "./document/ISMAR2024_ARSports.pdf"
       }
     ]
   }

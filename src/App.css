@@ -267,7 +267,7 @@ body {
     flex: 1 0 0;
     border-radius: 10.6px;
     background: var(--bg-shade);
-    min-height: 190px;
+    min-height: 230px;
   }
   .skills--section--img {
     display: flex;
@@ -298,6 +298,22 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+  }
+  .skills--section--list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .skill--box {
+    background-color: var(--light-bg);
+    color: var(--primary);
+    padding: 8px 12px; /* Padding inside the skill box */
+    border-radius: 5px; /* Rounded corners */
+    border-style: solid;
+    border-width: 2px;
+    font-size: 14px; /* Adjust font size as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
   }
   /* Skills Style Ends */
   
@@ -345,12 +361,34 @@ body {
     gap: 42.6px;
     width: 100%;
   }
+  .publication--section--container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 42.6px;
+    width: 100%;
+  }
+  .publication--conference {
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 0.9em;
+    padding-bottom: 10px;
+  }
   .portfolio--section--img {
     border-radius: 8px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
   }
   .portfolio--section--img > img {
-    width: 100%;
+    height: 300px;
+    width: 640px;
+    object-fit: cover;
   }
   .portfolio--section--card {
     display: flex;
@@ -363,7 +401,7 @@ body {
     cursor: pointer;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    min-height: 400px;
+    min-height: 370px;
   }
   .portfolio--section--card--content {
     display: flex;
@@ -376,6 +414,11 @@ body {
   .portfolio--section--title {
     color: var(--heading-color);
     padding-bottom: 10px;
+  }
+  .publication--section--title {
+    color: var(--heading-color);
+    padding-bottom: 10px;
+    line-height: 1.5;
   }
   .tech-label {
     font-weight: bold;
@@ -391,10 +434,20 @@ body {
   .portfolio--link {
     text-decoration: none;
     display: flex;
-    gap: 16px;
+    gap: 50px;
     border-bottom: 1.33px solid var(--primary);
     padding-bottom: 10.6px;
     font-weight: 600;
+  }
+  .publication--link {
+    text-decoration: none;
+    display: flex;
+    gap: 50px;
+    padding-bottom: 10.6px;
+    font-weight: 600;
+  }
+  .portfolio--link:hover {
+    color: #006b6a; 
   }
   .portfolio--section--card:hover path {
     stroke: #006b6a;
