@@ -2,10 +2,10 @@ import data from "../data/index.json";
 
 export default function MyPublications() {
   return (
-    <section className="portfolio--section" id="MyPortfolio">
+    <section className="portfolio--section" id="MyPublications">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <h1 className="section--heading">Publications</h1>
+          <h1 className="skills-section--heading">Publications</h1>
         </div>
       </div>
       <div className="publication--section--container">

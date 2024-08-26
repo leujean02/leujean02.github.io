@@ -5,9 +5,6 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import PortfolioPage from "./pages/PortfolioPage";
-import MyPortfolio from "./components/MyPortfolio";
-import AboutMe from "./components/AboutMe";
-import Footer from "./components/Footer";
 
 function App() {
   return (
