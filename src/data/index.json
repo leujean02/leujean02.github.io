@@ -8,17 +8,25 @@
       {
         "id": "2",
         "title": "Tools",
-        "description": "React.js, React Native, Node.js, Git, Linux, Microsoft Azure, Firebase, Xcode, JUnit, PyTorch, NumPy, Spark"
+        "description": "React.js, React Native, Node.js, Git, Linux, Microsoft Azure, AWS, Firebase, Xcode, JUnit, PyTorch, NumPy, Spark"
       },
       {
         "id": "3",
         "title": "Spoken Languages",
-        "description": "English (Proficient), Mandarin Chinese (Native), Korean (Native)"
+        "description": "English (Fluent), Mandarin Chinese (Native), Korean (Native)"
       }
     ],
     "portfolio": [
       {
         "id": "1",
+        "title": "CineMate",
+        "description": "A movie search chat bot that helps you find films by title and lets you filter results by release year.",
+        "type": "GitHub",
+        "link": "https://github.com/leujean02/cinemate",
+        "technologies": "AWS {Lambda, Lex), Python, React.js"
+      },
+      {
+        "id": "2",
         "title": "Dotorii: Scan Your Plan",
         "description": "An iOS app to enhance accessibility by enabling users to capture posters or scan QR codes and automatically integrate the information into Google Calendar.",
         "type": "GitHub",
@@ -26,7 +34,7 @@
         "technologies": "Python, Swift, OCR"
       },
       {
-        "id": "2",
+        "id": "3",
         "title": "Games Capstone: Mixed Up Power Ups",
         "description": "A dynamic platformer game with diverse power-ups for strategic navigation and level completion, offering a fun and challenging experience.",
         "type": "Website",
@@ -34,25 +42,25 @@
         "technologies": "Haxe, Flixel"
       },
       {
-        "id": "3",
+        "id": "4",
         "title": "Distributed Key-Value Store",
         "description": "Engineered a scalable, fault-tolerant key-value store using the Paxos consensus algorithm. Developed a distributed system with state machine replication and database sharding for efficient data management.",
         "technologies": "Java"
       },
       {
-        "id": "4",
+        "id": "5",
         "title": "Flight Booking Application",
         "description": "A Java app for account management, flight booking, and secure transactions via command-line interface, using SQL transactions and Microsoft Azure SQL Server for conflict-free multi-user access.",
         "technologies": "Java, SQL, Microsoft Azure"
       },
       {
-        "id": "5",
+        "id": "6",
         "title": "UW Campus Map",
         "description": "A Java application that finds the shortest path between locations on the University of Washington campus.",
         "technologies": "Java, TypeScript, React, Node.js"
       },
       {
-        "id": "6",
+        "id": "7",
         "title": "Flappy Bird Game on FPGA",
         "description": "Reverse-engineered the classic game 'Flappy Bird' and implemented it on an FPGA using SystemVerilog, achieving a smooth 60 FPS gameplay experience.",
         "technologies": "SystemVerilog"
