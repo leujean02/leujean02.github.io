@@ -23,7 +23,7 @@
         "description": "A movie search chat bot that helps you find films by title and lets you filter results by release year.",
         "type": "GitHub",
         "link": "https://github.com/leujean02/cinemate",
-        "technologies": "AWS {Lambda, Lex), Python, React.js"
+        "technologies": "AWS, Python, React.js"
       },
       {
         "id": "2",
